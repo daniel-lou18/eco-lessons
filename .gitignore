@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Cursor / agent tooling (local skills, not lesson content)
+.agents/
+.cursor/
+skills-lock.json

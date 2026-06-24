@@ -1,0 +1,230 @@
+/*
+ * course.css — shared stylesheet for the "Business Engine" course.
+ * Every lesson and reference document links this file so the whole
+ * course reads as one consistent, Tufte-inspired publication.
+ *
+ * Design intent: calm, readable, print-friendly. Generous margins,
+ * a single warm serif for prose, a mono face for the "machine" diagrams
+ * borrowed from the source outline.
+ */
+
+:root {
+  --ink: #1a1a1a;
+  --ink-soft: #4a4a4a;
+  --paper: #fdfcf8;
+  --rule: #e3ded2;
+  --accent: #1f6f54;        /* money green, used sparingly */
+  --accent-soft: #e7f1ec;
+  --flag: #9a6b00;          /* warm ochre for "teaching point" callouts */
+  --flag-soft: #fbf3e0;
+  --maxw: 42rem;
+}
+
+html {
+  font-size: 18px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Charter, Georgia, Cambria, "Times New Roman", serif;
+  line-height: 1.55;
+  text-rendering: optimizeLegibility;
+}
+
+.wrap {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 4rem 1.5rem 6rem;
+}
+
+/* ---- Course chrome ------------------------------------------------ */
+
+.eyebrow {
+  font-family: "SF Mono", ui-monospace, "Cascadia Code", Menlo, Consolas, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.75rem;
+}
+
+h1 {
+  font-size: 2.1rem;
+  line-height: 1.15;
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+  letter-spacing: -0.01em;
+}
+
+.subtitle {
+  font-size: 1.15rem;
+  color: var(--ink-soft);
+  font-style: italic;
+  margin: 0 0 2.5rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 2.8rem 0 0.6rem;
+  letter-spacing: -0.005em;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 1.8rem 0 0.4rem;
+}
+
+p { margin: 0 0 1.1rem; }
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+}
+a:hover { border-bottom-color: var(--accent); }
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 3rem 0;
+}
+
+strong { font-weight: 600; }
+
+/* ---- The "machine" diagrams (monospace ledgers) ------------------- */
+
+pre, .machine {
+  font-family: "SF Mono", ui-monospace, "Cascadia Code", Menlo, Consolas, monospace;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  background: #f4f1e8;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  overflow-x: auto;
+  margin: 0 0 1.4rem;
+  color: var(--ink);
+}
+
+code {
+  font-family: "SF Mono", ui-monospace, Menlo, Consolas, monospace;
+  font-size: 0.88em;
+  background: #f4f1e8;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+pre code { background: none; padding: 0; }
+
+/* ---- Callouts ----------------------------------------------------- */
+
+.callout {
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+  padding: 0.9rem 1.2rem;
+  margin: 0 0 1.4rem;
+  border-radius: 0 6px 6px 0;
+}
+.callout p:last-child { margin-bottom: 0; }
+
+.teaching-point {
+  border-left: 3px solid var(--flag);
+  background: var(--flag-soft);
+}
+.teaching-point .label {
+  display: block;
+  font-family: "SF Mono", ui-monospace, Menlo, Consolas, monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--flag);
+  margin-bottom: 0.3rem;
+}
+
+/* ---- Margin notes (Tufte) ----------------------------------------- */
+
+.note {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+/* ---- Citations ---------------------------------------------------- */
+
+sup.cite { font-size: 0.7rem; }
+sup.cite a { border: 0; font-style: normal; }
+
+.sources {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  margin-top: 2rem;
+}
+.sources ol { padding-left: 1.2rem; }
+.sources li { margin-bottom: 0.4rem; }
+
+/* ---- Navigation between lessons ----------------------------------- */
+
+.lesson-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 3.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.9rem;
+}
+.lesson-nav a { border: 0; }
+.lesson-nav .next { text-align: right; }
+.lesson-nav .label {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+/* ---- "Ask your teacher" reminder ---------------------------------- */
+
+.ask-teacher {
+  margin-top: 2.5rem;
+  padding: 1rem 1.2rem;
+  border: 1px dashed var(--rule);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+.ask-teacher strong { color: var(--ink); }
+
+/* ---- Primary-source recommendation -------------------------------- */
+
+.primary-source {
+  margin: 2rem 0;
+  padding: 1.1rem 1.2rem;
+  background: #fff;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+}
+.primary-source .label {
+  font-family: "SF Mono", ui-monospace, Menlo, Consolas, monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+/* ---- Print -------------------------------------------------------- */
+
+@media print {
+  :root { --paper: #fff; }
+  body { font-size: 11pt; }
+  .wrap { padding: 0; max-width: none; }
+  .quiz, .ask-teacher, .lesson-nav { page-break-inside: avoid; }
+  a { color: var(--ink); border: 0; }
+  pre, .machine { background: #f6f6f6; }
+}
