@@ -34,6 +34,11 @@ drawn from here, not from memory. Communities are where wisdom is tested.
   Use for: sanity-checking a single definition; never as the sole source for a
   claim.
 
+- [Warren Buffett — Berkshire Hathaway Shareholder Letters](https://www.berkshirehathaway.com/letters/letters.html)
+  The canonical, plain-English source on capital allocation by the practitioner
+  most associated with it. Use for: the reinvestment / capital-allocation lesson
+  — why what a company does with its cash matters as much as how much it earns.
+
 - [SEC EDGAR — full-text filing search](https://www.sec.gov/cgi-bin/srqsb?text=10-K) · [EDGAR home](https://www.sec.gov/edgar/search/)
   Free primary source for real 10-K / 10-Q filings. Use for: practice — pulling
   the actual statements of a company the learner already knows as a customer.

@@ -108,9 +108,33 @@ material for durable recall, not just same-lesson fluency.)
   that negative/low FCF can be growth, not failure. Devices: paycheck analogy,
   derivation (FCF & FCF yield fall out of prior pieces), contrasting cases,
   maintenance-vs-growth capex nuance, interleaved quizzes.
-- Next session: Lesson 0006 — Reinvestment / capital allocation (the 6 uses of
-  FCF; bridge to ROIC, compounders). Last lesson of the business-engine module
-  before Margins (0007/0008) — note: outline orders Margins (0008) then
-  Reinvestment (0009), but FCF's payoff teed up the 6 uses, so doing
-  Reinvestment next flows better. RECONSIDER ordering: maybe Margins next to
-  match outline. Decide at session start.
+- ORDERING DECIDED (with user): Reinvestment BEFORE Margins (flows from FCF's
+  six uses). So: 0006 Reinvestment ✅, then 0007 Margins next.
+- Lesson 0006 (Reinvestment / capital allocation) authored. Devices: CEO-as-
+  steward analogy, capital-allocation menu (6 doors, recall from L5), litmus test
+  ("does a reinvested euro earn more inside than handed back?"), ROIC taught
+  intuitively ("interest rate the business earns on its capital", shop €1,000→
+  €200 = 20%), COMPOUNDING TABLE (€100 at 20% vs 3% over 10 yrs → €619 vs €134)
+  to land "quality compounder", contrasting cases (high-ROIC reinvest vs mature
+  return-cash; empire-building = low-ROIC reinvest). Aphorism: "profitability =
+  machine today; reinvestment = machine tomorrow."
+- Added Buffett shareholder letters to RESOURCES.md (capital-allocation source).
+- ROE deliberately deferred to balance-sheet module (teased in ask-teacher).
+- Lesson 0007 (Margins) authored — COMPLETES THE BUSINESS ENGINE MODULE
+  (Part 3). Alpha margin ladder: gross 60% / operating 30% / net 20% / FCF 17%
+  (all from canonical numbers). Devices: savings-rate analogy (why %), the
+  descending "margin ladder" visual (ties back to L2 cost layers), within-
+  industry comparison rule (teaching point + contrasting case), across-rivals vs
+  over-time framing, interleaved quizzes. Primary source: Damodaran "Margins by
+  Sector" dataset.
+- MODULE STATUS: Business Engine (Part 3) DONE = lessons 0001–0007
+  (Revenue, Costs, Profit, Cash flow, FCF, Reinvestment, Margins).
+- Next: Part 4 — Balance Sheet, starting Lesson 0008 Assets. Sequence per
+  balance-sheet-outline: Assets → Liabilities → Equity → Debt → Cash → Net debt
+  → Enterprise value, then valuation ratios + the four quadrants (engine ×
+  balance sheet). Reframe: engine = earning power; balance sheet = financial
+  structure ("flow vs stock"). Keep Company Alpha (balance-sheet figures from the
+  outline: assets €2,000 / liabilities €800 / equity €1,200 / debt €500 / cash
+  €200 / net debt €300; market cap €2,500 → EV €2,800).
+- Consider: write a learning record once the user demonstrates understanding
+  (e.g. via the offered recap quiz) — none written yet beyond 0001 starting point.
