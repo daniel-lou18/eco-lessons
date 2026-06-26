@@ -34,6 +34,21 @@ drawn from here, not from memory. Communities are where wisdom is tested.
   Use for: sanity-checking a single definition; never as the sole source for a
   claim.
 
+- [Investopedia — Operating Leverage](https://www.investopedia.com/terms/o/operatingleverage.asp)
+  Term definition + worked intuition for how fixed operating costs amplify the
+  swing from revenue to operating profit. Use for: the Profit lesson's operating
+  leverage section (why operating profit is more sensitive than gross profit).
+
+- [Investopedia — Normalized Earnings](https://www.investopedia.com/terms/n/normalizedearnings.asp)
+  Plain definition of stripping one-off items to see the "normal-year" business.
+  Use for: the reported-vs-normalised and earnings-quality teaching points
+  (pairs with Damodaran Ch. 9 for the deeper version).
+
+- [Investopedia — Price-to-Earnings (P/E) Ratio](https://www.investopedia.com/terms/p/price-earningsratio.asp)
+  Worked P/E walk-through and the standard caveats (earnings quality,
+  cyclicality, growth, leverage). Use for: the P/E derivation and the
+  "P/E is a question, not a verdict" warnings in the Profit lesson.
+
 - [Warren Buffett — Berkshire Hathaway Shareholder Letters](https://www.berkshirehathaway.com/letters/letters.html)
   The canonical, plain-English source on capital allocation by the practitioner
   most associated with it. Use for: the reinvestment / capital-allocation lesson

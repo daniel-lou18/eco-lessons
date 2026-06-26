@@ -93,9 +93,60 @@ material for durable recall, not just same-lesson fluency.)
   rev €1,000 / direct €400 / gross €600 / opex €300 / op €300 / int €50 /
   tax €50 / net €200. Now extended: 100 shares, price €25 → market cap €2,500,
   EPS €2, P/E 12.5 (keep consistent everywhere).
+- Lesson 0002 (Costs) DEEPENED (2026-06-26, user request) while keeping the 3-layer
+  structure intact. Added: (1) cost object — "direct to WHAT?" (CEO salary flips
+  with the object); (2) COGS by business model — manufacturer/retailer/software
+  contrasting case, "cost of revenue" for SaaS; (3) cost allocation — factory rent
+  €100k / 50k phones = €2/phone = manufacturing overhead inside COGS;
+  (4) depreciation — €100k machine / 10 yrs = €10k/yr, factory→COGS vs head-office
+  →opex (rented = rental expense; teases L4 cash gap); (5) the SECOND DIMENSION —
+  variable / fixed / semi-variable (step) behaviour, support-team step example;
+  (6) "two dimensions, not one" matrix (direct≠variable, e.g. factory worker =
+  direct+semi-fixed, sales commission = operating+variable) — the LOAD-BEARING
+  idea; (7) "what each layer reveals" — product engine / company engine / capital
+  structure; (8) upgraded pocket test (4 WHERE questions + 1 HOW question).
+  Quizzes rewritten to 6 (cost object, two-dimensions, step cost, allocation,
+  depreciation placement, gross-profit reveal). Time bumped ~7→~14 min. New sources:
+  Investopedia Cost Object / Variable & Fixed Cost / Overhead. Glossary extended
+  with a "Cost classification" section (cost object, cost of revenue, mfg overhead,
+  depreciation, variable/fixed/semi-variable). NOTE: user referred to it as the
+  "first lesson / 0001-revenue" but all content was cost classification → applied
+  to 0002.
 - Devices used in 0003: payslip analogy (activate prior knowledge), software-vs-
   supermarket contrasting case (gross profit), derivation-over-memorisation
   (P/E falls out of the engine), interleaved quizzes (recall from L1/L2).
+- Lesson 0003 (Profit) DEEPENED (2026-06-26, user request) while keeping the
+  payslip→3-layer→P/E spine the user loves. Central reframe: "each profit number
+  is a DIAGNOSTIC CHECKPOINT, not just money left" → ask WHERE profit moved, not
+  just up/down. Added: (1) diagnosis table (gross=product attractive / op=model
+  efficient / net=after financing+noise); (2) gross profit = "economic oxygen" +
+  low-gross must compensate w/ efficiency; (3) gross profit can FALL while revenue
+  RISES — input costs/discount/mix, with premium-vs-basic PRODUCT MIX contrasting
+  case (€60 vs €20 gross on same €100); (4) operating efficiency Company A vs B
+  (same €600 gross, €300 vs €550 opex → €300 vs €50 op profit) + nuance "high opex
+  = wasteful OR strategic"; (5) OPERATING LEVERAGE — the headline new concept:
+  software rev ×2 (€1,000→€2,000) → op profit 9× (€100→€900) via fixed costs;
+  two-way amplifier; explains why op profit > gross profit in sensitivity;
+  (6) net profit Company A vs B (same €300 op, interest €20 vs €120 → net €210 vs
+  €135) → op profit strips capital structure; (7) reported vs NORMALISED profit
+  (building sale +€100 / legal settlement −€100), gentle, teases valuation;
+  (8) profit QUALITY — healthy vs low-quality sources, R&D-cut trap (€200→€50 lifts
+  op profit €150 but starves future); "ask what CREATED it"; (9) absolute vs MARGIN
+  bridge (A €100/€1,000=10% vs B €300/€10,000=3%) → teases L7; (10) EPS deepened —
+  why it exists + EPS depends on profit AND shares (dilution: profit €200→€300 but
+  shares 100→200 → EPS €2→€1.50) + basic vs diluted EPS (light); (11) P/E warnings
+  — "P/E is a QUESTION GENERATOR, not a verdict" (earnings quality one-off; low P/E
+  can be a warning; high P/E can be growth); (12) the "which profit?" DECISION TREE
+  (improved/fell → which layer → why) = the practical mechanic's tool; (13) 5-line
+  summary callout + expert habit "never say profit up/down without which & why."
+  Alpha kept canonical (net €200, 100 shares, price €25, EPS €2, P/E 12.5); all
+  other examples are clearly-illustrative non-Alpha companies. Quizzes expanded
+  3→10 (which-profit-first, gross-down-despite-revenue-up, op-efficiency, operating
+  leverage, net-profit-&-debt, normalised/one-off, absolute-vs-margin, EPS dilution,
+  P/E calc, low-P/E-not-cheap), interleaved. Time bumped ~8→~18 min. Glossary
+  extended: operating leverage, reported-vs-normalised profit, basic-vs-diluted EPS,
+  enriched operating-profit/net-profit/EPS/P-E entries. RESOURCES.md +Investopedia
+  Operating Leverage / Normalized Earnings / P-E Ratio.
 - Lesson 0004 (Cash flow) authored. New canonical Alpha numbers: operating cash
   flow €250, depreciation €50 (the gap vs net profit €200), capex €80. Financing
   cash flow shown as "−€100 (illustrative)" — NOT canonical, don't lock it in.
